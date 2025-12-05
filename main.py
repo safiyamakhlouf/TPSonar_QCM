@@ -8,3 +8,11 @@ def recup_nom_long(employee, limite=3):
             return employee.last
         else: 
             return f"nom trop court" 
+
+def fonction_absurde(employee): 
+    """ fonction absurde pour tester sonarcloud"""
+   if employee.last and employee.first:
+       employee.last="Mario"
+       employee.first= employee.first+4
+       return 
+       
